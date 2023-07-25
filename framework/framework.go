@@ -1,4 +1,4 @@
-package vframework
+package framework
 
 type Handler interface {
 	GetName() string
@@ -19,7 +19,7 @@ type Framework struct {
 	Grpc *NetworkConf
 }
 
-func new() Framework {
+func New() Framework {
 	return Framework{}
 }
 
